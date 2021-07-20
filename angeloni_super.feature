@@ -1,7 +1,8 @@
 #language: pt
 
-Funcionalidade: Abrir produto
+Funcionalidade: Produto
 
+Cenário: Buscar produto por departamento
     Dado que esteja na home da Angeloni Super
     Quando clicar no primeiro departamento
     E clicar no primeiro produto exibido

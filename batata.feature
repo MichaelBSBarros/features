@@ -1,7 +1,8 @@
 #language: pt
 
-Funcionalidade: Pesquisar batata
+Funcionalidade: Pesquisa
 
+Cenário: Buscar por batata no google imagens
     Dado que esteja na home do Google
     Quando buscar por "batata"
     E entrar em Imagens

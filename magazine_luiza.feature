@@ -1,7 +1,8 @@
 #language: pt
 
-Funcionalidade: Adiconar à sacola
+Funcionalidade: Sacola de itens
 
+Cenário: Adicionar produto à sacola
     Dado que esteja na home da Magazine Luiza
     Quando buscar por "Computador"
     E clicar no primeiro computador exibido
