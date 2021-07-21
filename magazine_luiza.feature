@@ -2,9 +2,12 @@
 
 Funcionalidade: Sacola de itens
 
-Cenário: Adicionar produto à sacola
+Esquema do Cenário: Adicionar produto à sacola
     Dado que esteja na home da Magazine Luiza
-    Quando buscar por "Computador"
-    E clicar no primeiro computador exibido
+    Quando buscar por "<produto>"
+    E acessar o primeiro produto exibido
     E adicionar à sacola
-    Então deverá ser exibido o computador na sacola
+    Então deverá ser exibido "<produto>" na sacola
+    Exemplos:
+        | Produto    |
+        | computador |
