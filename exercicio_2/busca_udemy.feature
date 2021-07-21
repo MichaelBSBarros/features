@@ -32,7 +32,7 @@ Funcionalidade: Busca
 
     Esquema do Cenário: Cursos no carrossel
         Quando validar a sessão "<carrossel>" na página
-        Então deverá ser exibidos os cursos "<msg>"
+        Então deverão ser exibidos os cursos "<msg>"
         Exemplos:
             | carrossel                  | msg       |
             | Alunos estão assistindo    | em alta   |
