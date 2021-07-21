@@ -6,7 +6,7 @@ Funcionalidade: Login
     Para acessar as funcionalidades de usuário logado
 
     Contexto: Acessar área de login
-        Dado que esteja na home do Udemy
+        Dado que esteja na home da Udemy
         E acessa a opção de login
 
     Esquema do Cenário: Autenticação com falha

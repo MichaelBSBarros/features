@@ -6,7 +6,7 @@ Funcionalidade: Cadastro
     Para acessar as funcionalidades de usuário logado
 
     Contexto: Acessar área de cadastro
-        Dado que esteja na home do Udemy
+        Dado que esteja na home da Udemy
         E acessa a opção de cadastro
 
         Esquema do Cenário: Tentativa de cadastro com falha

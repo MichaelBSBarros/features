@@ -6,7 +6,7 @@ Funcionalidade: Lista de Desejos
     Para realizar a compra futuramente
 
     Contexto:
-        Dado que esteja na home do Udemy com usuario logado
+        Dado que esteja na home da Udemy com usuario logado
         
     Cenário: adicionar à lista de desejos
         Quando selecionar um curso disponível para compra
