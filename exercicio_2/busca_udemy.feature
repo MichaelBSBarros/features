@@ -24,6 +24,7 @@ Funcionalidade: Busca
             | BDD   |
 
     Esquema do Cenário: Validar cursos por categoria
+        Dado que esteja na home do Udemy
         Quando acessar a opção de Categorias 
         E escolher a categoria "<categoria>", "<subcategoria>"
         E seguir com a busca
@@ -33,6 +34,7 @@ Funcionalidade: Busca
             | TI e software | Certificações de TI |
 
     Esquema do Cenário: Cursos no carrossel
+        Dado que esteja na home do Udemy
         Quando validar a sessão "<carrossel>" na página
         Então deverão ser exibidos os cursos "<msg>"
         Exemplos:
