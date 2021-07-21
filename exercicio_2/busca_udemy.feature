@@ -26,9 +26,9 @@ Funcionalidade: Busca
 
     Esquema do Cenário: Validar cursos por categoria
         Quando acessar a opção de Categorias 
-        E escolher a categoria "<categoria>", "<subcategoria>"
+        E escolher a categoria "<categoria>", subcategoria "<subcategoria>"
         E seguir com a busca
-        Então deverão ser exibidos os cursos na página referente a categoria escolhida
+        Então deverão ser exibidos na página os cursos referente a categoria escolhida
         Exemplos:
             | categoria     | subcategoria        |
             | TI e software | Certificações de TI |
