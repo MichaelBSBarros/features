@@ -6,4 +6,20 @@ Funcionalidade: Cadastro
         Dado que esteja na home do Udemy
         E acessa a opção de cadastro
 
-    
+        Esquema do Cenário: Tentativa de cadastro com falha
+        Quando inserir "<campo>" "<característica>"
+        E escolher seguir
+        Então deverá ser exibida a mensagem "<msg>"
+        Exemplos:
+            | campo         | característica                    | msg                                           |
+            | Nome Completo | com menos de 2 caracteres         | Aumente esse texto para 2 caracteres ou mais. |
+            | E-mail        | Incompleto sem @                  | Inclua um "@" no endereço de e-mail.          |
+            | E-mail        | Incompleto sem nome do utilizador | Insira uma parte seguida por "@".             |
+            | E-mail        | Incompleto sem domínio            | Insira um endereço de email válido.           |
+            | E-mail        | Incompleto sem o nome do servidor | Insira uma parte depois de "@".               |
+            | Senha         | Com menos de 6 caracteres         | Aumente este texto para 6 caracteres ou mais. |
+
+    Cenário: Cadastro com sucesso
+        Quando inserir dados válidos para o cadastro
+        E escolher seguir
+        Então deverá ser exibida a opção My learning indicando o sucesso no cadastro

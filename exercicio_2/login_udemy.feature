@@ -21,6 +21,6 @@ Funcionalidade: Login
             | Senha  | Incompleta                        | Aumente este texto para 6 caracteres ou mais.                                       |
 
     Cenário: Autenticação com sucesso
-        Quando inserir email e senha já cadastrados
+        Quando inserir credenciais válidas já cadastrados
         E escolher seguir
         Então deverá ser exibida a opção My learning
