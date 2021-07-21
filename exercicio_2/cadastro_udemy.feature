@@ -25,4 +25,4 @@ Funcionalidade: Cadastro
     Cenário: Cadastro com sucesso
         Quando inserir dados válidos para o cadastro
         E escolher seguir
-        Então deverá ser exibida a opção My learning indicando o sucesso no cadastro
+        Então deverá ser validado o usuário logado na home
