@@ -9,7 +9,7 @@ Funcionalidade: Cadastro
         Dado que esteja na home da Udemy
         E acessa a opção de cadastro
 
-        Esquema do Cenário: Tentativa de cadastro com falha
+    Esquema do Cenário: Tentativa de cadastro com falha
         Quando inserir "<campo>" "<característica>"
         E escolher seguir
         Então deverá ser exibida a mensagem "<msg>"
