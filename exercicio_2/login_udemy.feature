@@ -23,4 +23,4 @@ Funcionalidade: Login
     Cenário: Autenticação com sucesso
         Quando inserir credenciais válidas já cadastrados
         E escolher seguir
-        Então deverá ser exibida a opção My learning
+        Então deverá ser exibida a opção My learning indicando o sucesso no login
