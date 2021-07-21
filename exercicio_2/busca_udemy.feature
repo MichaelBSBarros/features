@@ -1,21 +1,23 @@
 #language: pt
 
 Funcionalidade: Busca
+    Como usuário do site Udemy
+    Quero poder buscar cursos
+    Para poder compra-los
 
     Contexto:
         Dado que esteja na home do Udemy
+        E buscar por "<curso>" na pesquisa de cursos
 
     Esquema do Cenário: Busca por curso sem sucesso
-        Quando buscar por "<curso>" na pesquisa de cursos
-        E escolher seguir
+        Quando escolher seguir
         Então deverá ser exibido a mensagem "<msg>"
         Exemplos:
             | curso           | msg                                           |
             | LoremIpsumLorem | Infelizmente, não encontramos resultados para |
     
     Esquema do Cenário: Busca por curso com sucesso
-        Quando buscar por "<curso>" na pesquisa de cursos
-        E escolher seguir
+        Quando escolher seguir
         Então deverão ser exibidos os cursos na página referente a pesquisa realizada
         Exemplos:
             | curso |

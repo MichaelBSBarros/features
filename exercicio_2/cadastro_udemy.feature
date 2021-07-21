@@ -1,6 +1,9 @@
 #language: pt
 
 Funcionalidade: Cadastro
+    Como usuário do site Udemy
+    Quero efetuar o cadastro
+    Para acessar as funcionalidades de usuário logado
 
     Contexto: Acessar área de cadastro
         Dado que esteja na home do Udemy

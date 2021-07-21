@@ -1,6 +1,9 @@
 #language: pt
 
 Funcionalidade: Login
+    Como usuário do site Udemy
+    Quero efetuar o login
+    Para acessar as funcionalidades de usuário logado
 
     Contexto: Acessar área de login
         Dado que esteja na home do Udemy
