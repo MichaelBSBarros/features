@@ -29,3 +29,11 @@ Funcionalidade: Busca
         Exemplos:
             | categoria     | subcategoria        |
             | TI e software | Certificações de TI |
+
+    Esquema do Cenário: Cursos no carrossel
+        Quando validar a sessão "<carrossel>" na página
+        Então deverá ser exibidos os cursos "<msg>"
+        Exemplos:
+            | carrossel                  | msg       |
+            | Alunos estão assistindo    | em alta   |
+            | Para você que procurou por | sugeridos |
