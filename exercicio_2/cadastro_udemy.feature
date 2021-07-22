@@ -10,18 +10,19 @@ Funcionalidade: Cadastro
         E acessa a opção de cadastro
 
     Esquema do Cenário: Tentativa de cadastro com falha
-        Dado que preencha os dados com "<situação>"
+        Dado que serão preenchidos os dados com o campo "<campo>" "<característica>"
         #Quando inserir "<campo>" "<característica>"
         Quando escolher seguir
         Então deverá ser exibida a mensagem "<msg>"
         Exemplos:
-            | situação                        | msg                                           |
-            | nome com menos de 2 caracteres  | Aumente esse texto para 2 caracteres ou mais. |
-            | E-mail sem @                    | Inclua um "@" no endereço de e-mail.          |
-            | E-mail sem nome do utilizador   | Insira uma parte seguida por "@".             |
-            | E-mail sem domínio              | Insira um endereço de email válido.           |
-            | E-mail sem o nome do servidor   | Insira uma parte depois de "@".               |
-            | Senha Com menos de 6 caracteres | Aumente este texto para 6 caracteres ou mais. |
+
+            | campo         | característica                    | msg                                           |
+            | Nome Completo | com menos de 2 caracteres         | Aumente esse texto para 2 caracteres ou mais. |
+            | E-mail        | Incompleto sem @                  | Inclua um "@" no endereço de e-mail.          |
+            | E-mail        | Incompleto sem nome do utilizador | Insira uma parte seguida por "@".             |
+            | E-mail        | Incompleto sem domínio            | Insira um endereço de email válido.           |
+            | E-mail        | Incompleto sem o nome do servidor | Insira uma parte depois de "@".               |
+            | Senha         | Com menos de 6 caracteres         | Aumente este texto para 6 caracteres ou mais. |
 
     Cenário: Cadastro com sucesso
         Quando inserir dados válidos para o cadastro

@@ -10,18 +10,18 @@ Funcionalidade: Login
         E acessa a opção de login
 
     Esquema do Cenário: Autenticação com falha
-        Dado que preencha os dados com "<característica>"
+        Dado que serão preenchidos os dados com o campo "<campo>" "<característica>"
         Quando escolher seguir
         Então deverá ser exibida a mensagem "<msg>"
         Exemplos:
-            | característica                | msg                                                                                 |
-            | Email não cadastrado          | Ocorreu um problema ao fazer login. Verifique seu e-mail e senha ou crie uma conta. |
-            | Senha não cadastrada          | Ocorreu um problema ao fazer login. Verifique seu e-mail e senha ou crie uma conta. |
-            | E-mail sem @                  | Inclua um "@" no endereço de e-mail.                                                |
-            | E-mail sem nome do utilizador | Insira uma parte seguida por "@".                                                   |
-            | E-mail sem domínio            | Insira um endereço de email válido.                                                 |
-            | E-mail sem o nome do servidor | Insira uma parte depois de "@".                                                     |
-            | Senha incompleta              | Aumente este texto para 6 caracteres ou mais.                                       |
+            | campo  | característica                    | msg                                                                                 |
+            | E-mail | Não cadastrado                    | Ocorreu um problema ao fazer login. Verifique seu e-mail e senha ou crie uma conta. |
+            | Senha  | Não cadastrada                    | Ocorreu um problema ao fazer login. Verifique seu e-mail e senha ou crie uma conta. |
+            | E-mail | Incompleto sem @                  | Inclua um "@" no endereço de e-mail.                                                |
+            | E-mail | Incompleto sem nome do utilizador | Insira uma parte seguida por "@".                                                   |
+            | E-mail | Incompleto sem domínio            | Insira um endereço de email válido.                                                 |
+            | E-mail | Incompleto sem o nome do servidor | Insira uma parte depois de "@".                                                     |
+            | Senha  | Incompleta                        | Aumente este texto para 6 caracteres ou mais.                                       |
 
     Cenário: Autenticação com sucesso
         Quando inserir credenciais válidas já cadastrados
