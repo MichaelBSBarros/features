@@ -7,7 +7,7 @@ Funcionalidade: Login
 
     Esquema do Cenário: POST - Login
         Quando postar dados de login de usuario "<login>" com senha "<passw>"
-        Então deverá ser retornado o schema 'post_login' com status "<status>"
+        Então deverá ser retornado o schema 'post_login' com status <status>
         E deverá ser retornado no corpo da resposta a "<prop>" com mensagem "<mensagem>"
         Exemplos:
             | login         | passw | status | prop     | mensagem                          |
